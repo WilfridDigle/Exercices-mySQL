@@ -12,24 +12,24 @@ CREATE DATABASE IF NOT EXISTS `mediaBank`
 -- Exercice 5
 CREATE TABLE `images`
 ( 
-    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, 
-    name VARCHAR(50), 
-    link VARCHAR(255), 
-    width INT, 
-    height INT, 
-    format VARCHAR(5), 
-    description TEXT, 
-    publicationDate DATE
+    `id` INT PRIMARY KEY NOT NULL AUTO_INCREMENT, 
+    `name` VARCHAR(50), 
+    `link` VARCHAR(255), 
+    `width` INT, 
+    `height` INT, 
+    `format` VARCHAR(5), 
+    `description` TEXT, 
+    `publicationDate` DATE
 )
 
 CREATE TABLE `videos`
 ( 
-    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, 
-    name VARCHAR(50), 
-    link VARCHAR(255), 
-    duration TIME,  
-    description TEXT, 
-    publicationDate DATE
+    `id` INT PRIMARY KEY NOT NULL AUTO_INCREMENT, 
+    `name` VARCHAR(50), 
+    `link` VARCHAR(255), 
+    `duration` TIME,  
+    `description` TEXT, 
+    `publicationDate` DATE
 )
 
 -- Exercice 6
